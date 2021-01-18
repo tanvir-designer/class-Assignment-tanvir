@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header part start */
+.header-part {
+    background-color: #34495e;
+    padding: 60px 0;
+}
+.header-part ul {
+    list-style: none;
+    text-align: center;
+}
+.header-part ul li {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #e67e22;
+    margin: 0 10px;
+    color: #34495e;
+    border: 1px solid transparent;
+    transition:all .3s linear;
+}
+.header-part ul li:hover{
+    background-color: transparent;
+    border: 1px solid #e67e22;
+    transition:all .3s linear;
+}
+.header-part ul li:hover a{
+    color: #e67e22;
+    transition:all .3s linear;
+}
+.header-part li a {
+    text-decoration: none;
+    color: #34495e;
+    font-weight: 600;
+    transition:all .3s linear;
+} 
+
+/* Banner part start */
+.banner-part {
+	background: url(2.jpg) repeat;
+	background-position: center center;
+	text-align: center;
+	padding: 50px 0;
+}
+.banner-part h1 {
+	font-weight: 600;
+	color: #34495e;
+	margin-bottom: 13px;
+}
+.banner-part p {
+	width: 80%;
+	margin: auto;
+	color: #646464;
+	margin-bottom: 20px;
+}
+.banner-part button {
+	border: none;
+	background-color: #dc3747;
+	color: white;
+	padding: 12px 19px;
+	border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition:all .3s linear;
+    font-weight: 600;
+}
+.banner-part button:hover{
+    background-color: transparent;
+    border: 2px solid #dc3747;
+    color: #dc3747;
+    transition:all .3s linear;
+}
+.service-part {
+	background-color: #d35400;
+	text-align: center;
+	color: white;
+	padding: 65px 0;
+}
+.service-part p {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.service-part ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 15px;
+}
+.service-part ul li a {
+	text-decoration: none;
+	color: #2c3e50;
+	font-weight: 600;
+}
+
+/* Footer part start */
+.footer-part{
+    padding: 25px 0;
+}
+.footer-part p {
+	text-align: center;
+	color: white;
+	margin-top: 35px;
+}
